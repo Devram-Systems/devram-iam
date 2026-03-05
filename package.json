@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "devram-iam",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Identity and Access Management",
+  "author": "ramos (ramos-devram)",
   "private": true,
   "license": "UNLICENSED",
   "engines": {
