@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'
 import { envValidation } from './config/env.validation'
+import { DbService } from './db/db.service'
 
 @Module({
   imports: [
@@ -10,5 +11,6 @@ import { envValidation } from './config/env.validation'
       validationSchema: envValidation,
     }),
   ],
+  providers: [DbService],
 })
 export class AppModule {}
